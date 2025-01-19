@@ -1,0 +1,117 @@
+/*Медиа запрос: для екранов с шириной до 1140px*/
+@media (max-width: 1140px) {
+    .card {
+        width: calc(50% - 15px);
+        
+    }
+    
+    .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+         text-align: center;
+    }
+
+    .footer-contact {
+        margin-bottom: 20px;
+    }
+
+    .footer-copyright-name {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .footer-row:first-child {
+        margin-bottom: 0px;
+    }
+
+
+}
+
+
+
+/*Медиа запрос: для екранов с шириной до 760px*/
+@media (max-width: 760px) {
+    .header_title {
+        font-size: 32px;
+    }
+
+    .header_subtitle  {
+        font-size: 14px;
+    }
+
+    .header_subtitle_2 {
+        font-size: 15px;
+    }
+    
+    .portfolio-class-wrapper {
+        justify-content: center;
+    }
+
+    .portfolio {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    
+    .card {
+        width: 100%;
+    }
+
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .card-link {
+        padding: 15px;
+    }
+
+    .card-img {
+        margin-bottom: 10px;
+
+    }
+
+    .card-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .projekt {
+        padding: 40px 0 60px;
+    }
+
+    .projekt-header {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .projekt-img {
+        margin-bottom: 20px;
+    }
+
+    .projekt-discription {
+        margin-bottom: 50px;
+    }
+
+    .projekt-discription p {
+        font-size: clamp(14px, 2vw, 18px); /* Минимум 14px, максимум 18px, адаптивный размер */
+    line-height: 1.6; /* Удобное межстрочное расстояние */
+    margin: 0 0 15px; /* Отступы сверху и снизу */
+        
+    }
+
+}
+
+@media (max-width: 768px) {
+    .projekt-discription p {
+        font-size: 16px; /* Уменьшаем текст для планшетов */
+    }
+}
+
+@media (max-width: 480px) {
+    .projekt-discription p {
+        font-size: 14px; /* Ещё меньше для мобильных */
+    }
+}
